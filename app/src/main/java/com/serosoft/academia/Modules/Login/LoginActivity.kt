@@ -2,6 +2,7 @@ package com.serosoft.academia.Modules.Login
 
 import android.content.Context
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import com.serosoft.academia.R
@@ -34,5 +35,22 @@ class LoginActivity : BaseActivity() {
         etPassword = findViewById(R.id.etPassword);
         btnSignIn = findViewById(R.id.btnSignIn);
         btnForgotPassword = findViewById(R.id.btnForgotPassword);
+
+        btnSignIn!!.setOnClickListener(this)
+        btnForgotPassword!!.setOnClickListener(this)
+    }
+
+    override fun onClick(v: View?) {
+        super.onClick(v)
+
+        when (v!!.id) {
+            R.id.btnSignIn -> {
+                ProjectUtils.showLong(mContext,"Login")
+            }
+
+            R.id.btnForgotPassword -> {
+                ProjectUtils.showLong(mContext,"Forget Password")
+            }
+        }
     }
 }
