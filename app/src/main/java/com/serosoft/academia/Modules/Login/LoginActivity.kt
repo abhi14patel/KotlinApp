@@ -1,10 +1,12 @@
 package com.serosoft.academia.Modules.Login
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import com.serosoft.academia.Modules.Dashboard.DashboardActivity
 import com.serosoft.academia.R
 import com.serosoft.academia.Utils.BaseActivity
 import com.serosoft.academia.Utils.ProjectUtils
@@ -45,12 +47,18 @@ class LoginActivity : BaseActivity() {
 
         when (v!!.id) {
             R.id.btnSignIn -> {
-                ProjectUtils.showLong(mContext,"Login")
+                ProjectUtils.showLong(mContext, "Login")
             }
 
             R.id.btnForgotPassword -> {
-                ProjectUtils.showLong(mContext,"Forget Password")
+                ProjectUtils.showLong(mContext, "Forget Password")
             }
         }
+    }
+
+    private fun goToDashboard() {
+        val intent = Intent(this@LoginActivity, DashboardActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }
