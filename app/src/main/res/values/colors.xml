@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c21e2a</color>
+    <color name="colorPrimaryDark">#c21e2a</color>
+    <color name="colorAccent">#1E90FF</color>
+
+    <!--Common Colors-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack1">#3D3D3D</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorBackground2">#A8F3F3F3</color>
+    <color name="colorBackground3">#f5f5f5</color>
+
+    <color name="colorGraylight">#9AAAAAAA</color>
+    <color name="colorGray">#afafaf</color>
+    <color name="colorGray1">#898686</color>
+    <color name="colorGray2">#4c4c4c</color>
+    <color name="colorGray3">#E6E6E6</color>
+    <color name="colorGray4">#E7E7E7</color>
+    <color name="colorGray5">#797575</color>
+    <color name="colorLightGray">#e9ebef</color>
+    <color name="colorDarkGray">#969696</color>
+    <color name="colorCursor">#898686</color>
+
+    <!--Module Colors-->
+    <color name="colorMyCourse">#646464</color>
+    <color name="colorMyRequest">#c21e2a</color>
+    <color name="colorAttendance">#F4B400</color>
+    <color name="colorFees">#273043</color>
+    <color name="colorAssignment">#c21e2a</color>
+    <color name="colorResults">#40c4ff</color>
+    <color name="colorEvents">#273043</color>
+    <color name="colorTimetable">#F4B400</color>
+    <color name="colorCircular">#40c4ff</color>
+    <color name="colorGallery">#c21e2a</color>
+    <color name="colorDrive">#c21e2a</color>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Academia</string>
+
+    <!--Login Screen-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="send">Send</string>
+    <string name="enter_your_username">Enter your username</string>
+
+</resources>
